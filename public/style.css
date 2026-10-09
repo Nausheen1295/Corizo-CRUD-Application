@@ -1,0 +1,47 @@
+
+body {
+  background: #f4f7fb;
+  color: #1f2937;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  letter-spacing: 0.2px;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.form-control {
+  padding: 10px 12px;
+  border-radius: 9px;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.12);
+}
+
+.btn {
+  border-radius: 9px;
+}
+
+.table th {
+  white-space: nowrap;
+  font-size: 0.875rem;
+}
+
+.table td {
+  font-size: 0.9rem;
+}
+
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.empty-state {
+  padding: 30px 10px !important;
+}
